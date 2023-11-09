@@ -237,7 +237,7 @@ div a button{
 }
 
 @media only screen and (max-width: 600px) {
-    .leftPane, .rightPane, .details, .design1 {
+    .newstext, .newspicture, .newsheadline, .backgroundnews, .facultymajors {
         width: 100%;
     }
 
