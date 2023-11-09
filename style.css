@@ -235,3 +235,14 @@ div a button{
     background-color: rgba(237, 232, 232, 0.6);
     display: inline-block;
 }
+
+@media only screen and (max-width: 600px) {
+    .leftPane, .rightPane, .details, .design1 {
+        width: 100%;
+    }
+
+    .header, .footer {
+        padding: 1.5em;
+    }
+}
+
