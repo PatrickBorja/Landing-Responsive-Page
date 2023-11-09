@@ -1,0 +1,237 @@
+
+/* design and placement of logo */
+.logo {
+    position: absolute;
+    margin-left: 2em;
+    height: 7em;
+    width: 7em;
+}
+/* text color and design */
+.textdesign{
+    color: antiquewhite;
+    font-family: Georgia;
+    text-align: justify;
+}
+/* normal description paragraph */
+div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 2em;
+}
+
+/* this is for the second heading eme eme */
+div h2{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* This is for the patty institute heading */
+div h1{
+    margin-left: 4.2em;
+    color: antiquewhite;
+    display: inline-block;
+    padding-top: .3em;
+    position: absolute;
+}
+
+div h3{
+    font-size: 2em;
+    margin-left: 1em;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* this is for the heading paragraph */
+div p.headparagraph{
+    margin-left: 8.4em;
+    padding-top: 3.3em;
+    display: inline-block;
+    color: antiquewhite;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+}
+ /* this is the heading background */
+.heading{
+    background-color: #00001a;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+/* footer */
+
+.footer{
+    background-color: #00001a;
+    min-height: 7em;
+    padding-bottom: 7em;
+    position: relative;
+    width: 100%;
+}
+/* normal input */
+input{
+    position:absolute;
+    float: left;
+}
+/* large input */
+.largeinput{
+    margin-top: 10em;
+    margin-left: 10em;
+    display: inline;
+    width: 36.5%;
+    padding: 0;
+    min-height: 70%;
+}
+
+.regards{
+    display: inline;
+    margin-top: 20%;
+    margin-left: 20%;
+    padding: 5%;
+}
+
+.imagesize{
+    min-height: 2em;
+    height: 250px;
+    width: 250px;
+}
+
+.imageposition{
+    display: inline;
+    position: relative;
+    margin-left: 5em;
+    margin-top: 2.5em;
+}
+
+.buttonposition{
+    margin-top: 25%;
+    margin-left: 25%;
+    position: relative;
+}
+
+/* name */
+.textfooterdesc{
+    position: relative;
+    margin-left: 6em;
+    margin-top: 0.3em;
+}
+.textfooter{
+    position: absolute;
+    margin-left: 12em;
+}
+
+
+
+/* Picture */
+div.picture{
+    position: relative;
+}
+
+.picture{
+    margin: 0;
+    padding: 0;
+    height: 80em;
+    width: 100%;
+    opacity: .9;
+}
+
+div a button{
+    padding: 2em;
+    top: 15em;
+    left: 29.5em;
+}
+.picture .button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #000033;
+    color: white;
+    font-size: 16px;
+    padding: 56px 112;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover{
+    opacity: .9;
+    background-color: #3333ff;
+}
+
+/* About Gallery of School Facilities */
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+}
+.image {
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    margin-left: 5em;
+    margin-bottom: 2em;
+    padding: 0;
+}
+
+.image__img{
+    display: block;
+    width: 100%;
+}
+
+.image__overlay{
+    position: absolute;
+    display: inline;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background: rgba(0, 0, 0, .6);
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.image__title{
+    font-size: 5mm;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image__overlay:hover{
+    opacity: 1;
+}
+
+/* Faculty Description */
+.facultymajors{
+    text-align: center;
+}
+
+.backgroundnews{
+    padding: 20px 10px 20px 30px;
+    background-color: white;
+}
+
+.newsheadline{
+    text-align: center;
+}
+
+.newspicture {
+    height: 320px;
+    width: 320px;
+    padding: 0px 30px 0px 0px;
+    float: left;
+}
+
+.newstext{
+    border: 5px solid;
+    width: 63%;
+    min-height: 5cm;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(237, 232, 232, 0.6);
+    display: inline-block;
+}
